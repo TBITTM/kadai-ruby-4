@@ -6,7 +6,3 @@ end
 post '/' do
   erb :complete
 end
-
-get '/contact.erb' do
-  erb :contact
-end

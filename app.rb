@@ -1,8 +1,12 @@
 require 'sinatra'
 
-get '/contact.erb' do
+get '/' do
   erb :contact
 end
 post '/' do
   erb :complete
+end
+
+get '/contact.erb' do
+  erb :contact
 end
